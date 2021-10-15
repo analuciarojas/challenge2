@@ -10,7 +10,6 @@
     --text: white; 
     --red2: rgb(245, 214, 196); 
     --grey: rgb(46, 45, 45);
-
   }
 
 body {
@@ -150,6 +149,11 @@ margin-top: 9px;
     .about-me .title h2, .work .title h2, .contact-me .title h2 {
         font-size: 40px;
     }
+    .subtitle{
+        float: right;
+        padding: 10px;
+        font-size: 15px;
+    }
       }
 
 .work {
@@ -166,13 +170,17 @@ margin-top: 9px;
     padding-left:15x;
     padding-right: 15px;
     border-bottom: 4px solid var(--red);
-    color:var(--grey);
     padding-bottom:10px;
     margin-top:30px; 
 }
 
 .nav-contacts a:hover{ 
     font-weight: bold;
+  }
+
+  .nav-contacts a{
+    color:var(--grey);
+
   }
 
   .work-border {
@@ -215,7 +223,6 @@ margin-top: 9px;
     background-position: center;
 }
 
-
 .project2 {
     background-image: url("../images/horiseon.png");
     background-position: 0% 15%;
@@ -235,7 +242,6 @@ margin-top: 9px;
 .project5 {
     background-image: url("../images/pending.jpg");
 }
-
 
 .project:hover{
     opacity: 50%; 
