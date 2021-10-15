@@ -130,6 +130,7 @@ margin-top: 9px;
     min-width: 20%;
     max-width: 20%;
     text-align: right;
+
     
 }
 
@@ -137,7 +138,19 @@ margin-top: 9px;
     font-size: 50px;
     text-align: right;
     color: var(--red);
+    margin-right:15px;
 }
+.contact-me .title h2
+    {
+        display:flex;
+        justify-content: space-between; 
+    }
+
+@media only screen and (max-width: 1200px) {
+    .about-me .title h2, .work .title h2, .contact-me .title h2 {
+        font-size: 40px;
+    }
+      }
 
 .work {
     padding: 30px 0;
@@ -149,12 +162,13 @@ margin-top: 9px;
 .work h2 {
     color: var(--secondary);
 }
-.nav-contacts a {
+.nav-contacts li {
     padding-left:15x;
     padding-right: 15px;
     border-bottom: 4px solid var(--red);
     color:var(--grey);
     padding-bottom:10px;
+    margin-top:30px; 
 }
 
 .nav-contacts a:hover{ 
@@ -184,11 +198,6 @@ margin-top: 9px;
     justify-content: flex-end;
     align-items: flex-end;
     text-decoration: none;
-}
-
-
-.project1 :hover {
-    opacity: 5.0;
 }
 
 .project-label {
@@ -226,3 +235,9 @@ margin-top: 9px;
 .project5 {
     background-image: url("../images/pending.jpg");
 }
+
+
+.project:hover{
+    opacity: 50%; 
+}
+
