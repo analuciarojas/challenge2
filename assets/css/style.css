@@ -230,17 +230,20 @@ margin-top: 9px;
 }
 
 .project3 {
-    background-image: url("../images/robot.jpg");
-    background-position: 0% 20%;
+    background-image: url("../images/workday.png");
+    background-size: cover;
 }
 
 .project4 {
     background-image: url("../images/password.png");
     background-size: cover;
+    
 }
 
 .project5 {
-    background-image: url("../images/pending.jpg");
+    background-image: url("../images/destinationunknown.png");
+    background-size: cover;
+
 }
 
 .project:hover{
