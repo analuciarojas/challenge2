@@ -218,7 +218,7 @@ margin-top: 9px;
 .project1 {
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url("../images/runbuddy.jpg");
+    background-image: url("../images/quick-quack.png");
     background-size: cover;
     background-position: center;
 }
